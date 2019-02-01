@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="基础层">
+      <UniqueIdentifier>{c383b136-7eec-4c7e-82b6-f4fc6d936f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统层">
+      <UniqueIdentifier>{8038c4c2-f375-4b5e-b518-325559959f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图形层">
+      <UniqueIdentifier>{f177dd96-37be-4f25-90b5-86d35bda0521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎层">
+      <UniqueIdentifier>{6fd1e755-607f-4fed-84a9-dc0724bd3696}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventCallback.h">
+      <Filter>基础层</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStruct.h">
+      <Filter>基础层</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeWindow.h">
+      <Filter>系统层</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDevice.h">
+      <Filter>图形层</Filter>
+    </ClInclude>
+    <ClInclude Include="Signal.h">
+      <Filter>图形层</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>图形层</Filter>
+    </ClInclude>
+    <ClInclude Include="Fence.h">
+      <Filter>图形层</Filter>
+    </ClInclude>
+    <ClInclude Include="Swapchain.h">
+      <Filter>图形层</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>引擎层</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsLayer.h">
+      <Filter>图形层</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>引擎层</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NativeWindow.cpp">
+      <Filter>系统层</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDevice.cpp">
+      <Filter>图形层</Filter>
+    </ClCompile>
+    <ClCompile Include="Signal.cpp">
+      <Filter>图形层</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>基础层</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsLayer.cpp">
+      <Filter>图形层</Filter>
+    </ClCompile>
+    <ClCompile Include="Swapchain.cpp">
+      <Filter>图形层</Filter>
+    </ClCompile>
+    <ClCompile Include="Fence.cpp">
+      <Filter>图形层</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWindow.cpp">
+      <Filter>图形层</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
